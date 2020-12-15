@@ -4,6 +4,7 @@
   "description": "Bullhorn API",
   "homepage": "https://github.com/codler/bullhorn-api",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "ts-node test.ts"
